@@ -12,6 +12,7 @@ const Navbar = () => {
     const bottom = tempBtn.bottom - 3;
     openSubmenu(page, { center, bottom });
   }
+
   return <nav className="nav">
     <div className="nav-center">
       <div className="nav-header">
